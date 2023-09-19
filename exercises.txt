@@ -1,1 +1,21 @@
+1) Login to the Workshop Enviroment
+
+URL: https://soar4rookies.com:8443
+User: user_<ID>
+Password: ws<ID>pwd
+
+2) Send a email 
+To: soc@soarrookies.com
+Subject: [WS <ID>] ... some Text
+E-Mail Body: Some text with some URL or Domain or IP 
+Attachment: if you have a Attachment < 3 MB plese feel free to attach
+
+3) Customize the dashboard view
+
+
+
+4) Create a Playbook to send a question to a user
+
+Playbook Name: <ID>_prompt
+Operates On: *
 
