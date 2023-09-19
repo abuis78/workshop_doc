@@ -18,4 +18,6 @@ Attachment: if you have a Attachment < 3 MB plese feel free to attach
 
 Playbook Name: <ID>_prompt
 Operates On: *
+Tenants: Workshop
 
+Save it to the Repo "workshop_exercise"
