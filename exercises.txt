@@ -20,4 +20,4 @@ Playbook Name: <ID>_prompt
 Operates On: *
 Tenants: Workshop
 
-Save it to the Repo "workshop_exercise"
+Save it to the Repo "local"
