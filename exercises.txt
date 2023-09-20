@@ -43,3 +43,12 @@ JSON:
 }}
 
 Datapath: artifact:*.cef.requestURL
+
+Create Prompt datapath: format_json_prompt:formatted_data
+
+Format Email Body datapath: create_prompt:action_result.message
+
+Send Email datapath: format_email_body:formatted_data
+
+Sub Playbook input datapath: create_prompt:action_result.data.*.id
+
