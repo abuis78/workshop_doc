@@ -18,6 +18,28 @@ Attachment: if you have a Attachment < 3 MB plese feel free to attach
 
 Playbook Name: <ID>_prompt
 Operates On: *
-Tenants: Workshop
+Tenants: *
 
 Save it to the Repo "local"
+
+3) Playbook 
+
+JSON:
+
+{{
+    "schema": {{
+        "title": "We need your support, and therefore have two questions for you..\nIt is about the following URL: {0}",
+        "type": "object",
+        "required": ["Url_click"],
+        "properties": {{
+            "text": {{"type": "string", "title": "Space for remarks"}},
+            "Url_click": {{
+            "type": "number",
+            "enum": [1, 2],
+            "enumNames": ["Yes I clicked on the ULR", "No I have not clicked on the ULR"]
+            }}
+        }}
+    }}
+}}
+
+Datapath: artifact:*.cef.requestURL
